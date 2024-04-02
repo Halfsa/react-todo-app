@@ -1,0 +1,47 @@
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+/* Button styles*/
+.modeBtn{
+    height: 40px;
+    width: 200px;
+    border-radius: 17px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+.modeBtn:hover{
+    cursor: pointer;
+    transform: scale(102%);
+}
+.modeBtnLight{
+ background-color: white;
+  color: black;
+}
+.modeBtnDark{
+  background-color: darkslategray;
+  color: white;
+    border: 1px solid white;
+}
+/* Button styles end here*/
+.headerLight{
+ /* Valami ide majd*/
+}
+.headerDark{
+  background-color: #282c34;
+}
+/* Listaelem style*/
+.todoLight{
+  color: black;
+}
+.todoDark{
+  color: white;
+}
+/* Listaelem style ends here*/
