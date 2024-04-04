@@ -15,7 +15,7 @@
     font-weight: bold;
     position: absolute;
     top: 1%;
-    right: 1%;
+    left: 72%;
 }
 .modeBtn:hover{
     cursor: pointer;
@@ -26,9 +26,12 @@
   color: black;
 }
 .modeBtnDark{
-  background-color: darkslategray;
+  background-color: #2b3636;
   color: white;
     border: 1px solid white;
+}
+.toolbar{
+    margin-bottom: 35px;
 }
 /* Button styles end here*/
 .headerLight{
@@ -45,3 +48,39 @@
   color: white;
 }
 /* Listaelem style ends here*/
+
+/*Card style*/
+.card{
+    border-radius: 10px;
+    padding: 120px;
+    box-shadow: 1px 1px 2px black;
+    width: 12rem;
+    margin: 10px;
+}
+.card.dark{
+    background-color: #252931;
+    box-shadow: 1px 1px 2px #858383;
+    color: white;
+}
+.splitPanel{
+    display: flex;
+    border: 1px solid black;
+}
+.leftPanel {
+    border-right: 1px solid black;
+}
+
+.panel{
+    padding: 10px;
+    flex: 1;
+    width: 50%;
+}
+.productButton--light{
+}
+.productButton--dark{
+    color: white;
+    background-color: #252931;
+}
+.text{
+    text-align: center;
+}

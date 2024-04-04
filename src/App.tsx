@@ -3,6 +3,8 @@ import './App.css';
 import TodoList from "./TodoList";
 import Toolbar from "./Toolbar";
 import DarkModeContextProvider from "./DarkModeContextProvider";
+import Card from "./Card";
+import Products from "./Products";
 export interface Todo {
   id: number;
   text: string;
@@ -39,9 +41,15 @@ function App() {
   ]
 
   return (
+      /*
       <DarkModeContextProvider>
         <Toolbar/>
         <TodoList todoList={todos}/>
+      </DarkModeContextProvider>
+      */
+      <DarkModeContextProvider>
+        <Toolbar/>
+        <Products/>
       </DarkModeContextProvider>
   );
 }

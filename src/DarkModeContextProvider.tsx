@@ -1,5 +1,6 @@
 import {ReactNode, useState} from "react";
 import DarkModeContext from "./DarkModeContext";
+import ThemeBackground from "./ThemeBackground";
 
 export default function DarkModeContextProvider({children}:{children:ReactNode}){
     const [mode,setMode] = useState(true);
